@@ -1,0 +1,347 @@
+Evaluators
+{
+
+CScimitarRTDoc : Collection_Producer
+{
+[Raw Data Files]
+raw = FootModelGroup6_2022_04_04_142644_005.nrw
+CoordinateSystem = standard.cam
+[OPTOTRAK System]
+MarkerType = 1
+WavelengthType = 0
+ModelType = 1
+
+
+[GENERIC_SETTINGS]
+Description = 
+
+[COLLECTION_SETTINGS]
+CollectionTime = 2.000000
+FrameFrequency = 100.000000
+CollectionDelay = 0
+CompositeClock = 0
+
+[MARKERS_SETTINGS]
+NumberOfMarkers = 10
+
+[MARKER_SETTINGS]
+Port1 = 6
+Port2 = 4
+Port3 = 0
+Port4 = 0
+DutyCycle = 40
+MarkerFrequency = 3000.000000
+StroberVoltage = 8.035000
+PopulatedPorts = 2
+[Layout - P0]
+Label = Port 1
+MarkersAvailable = 0
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 0
+VLEDs = 0
+Switches = 0
+Port = 1
+Order = -1
+SubPort = -1
+StroberCount = 1
+[Layout - P0_S0]
+Label = Marker Strober
+MarkersAvailable = 24
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 0
+VLEDs = 0
+Switches = 2
+Port = 1
+Order = 1
+SubPort = 0
+MaxMarkerVoltage = 12
+MarkersToActivate = 0
+Type = 2
+MarkerIndexCount = 6
+MarkerIndex0 = 0
+MarkerIndex1 = 1
+MarkerIndex2 = 2
+MarkerIndex3 = 3
+MarkerIndex4 = 4
+MarkerIndex5 = 5
+SwitchIndexCount = 2
+SwitchIndex0 = 0
+SwitchIndex1 = 1
+ToolCount = 0
+[Layout - P1]
+Label = Port 2
+MarkersAvailable = 0
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 0
+VLEDs = 0
+Switches = 0
+Port = 2
+Order = -1
+SubPort = -1
+StroberCount = 1
+[Layout - P1_S0]
+Label = Tool Strober
+MarkersAvailable = 80
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 4
+VLEDs = 0
+Switches = 2
+Port = 2
+Order = 1
+SubPort = 0
+MaxMarkerVoltage = 12
+MarkersToActivate = 0
+Type = 3
+MarkerIndexCount = 0
+SwitchIndexCount = 2
+SwitchIndex0 = 2
+SwitchIndex1 = 3
+ToolCount = 1
+[Layout - P1_S0_T0]
+Label = NDI_8700311_20191118-01
+MarkersAvailable = 20
+UseRom = 0
+Cap3020 = 0
+HasROM = 1
+ToolPorts = 0
+VLEDs = 2
+Switches = 0
+Port = 2
+Order = 1
+SubPort = 1
+MarkerIndexCount = 4
+MarkerIndex0 = 6
+MarkerIndex1 = 7
+MarkerIndex2 = 8
+MarkerIndex3 = 9
+SwitchIndexCount = 0
+
+[Mkr_0]
+Label = Marker_1
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 1
+[Mkr_1]
+Label = Marker_2
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 2
+[Mkr_2]
+Label = Marker_3
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 3
+[Mkr_3]
+Label = Marker_4
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 4
+[Mkr_4]
+Label = Marker_5
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 5
+[Mkr_5]
+Label = Marker_6
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 6
+[Mkr_6]
+Label = Marker_7
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 1
+[Mkr_7]
+Label = Marker_8
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 7
+[Mkr_8]
+Label = Marker_9
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 13
+[Mkr_9]
+Label = Marker_10
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 19
+
+[SWITCH_SETTINGS]
+SwitchCount = 4
+[Switch_0]
+Action = 0
+
+[Switch_1]
+Action = 0
+
+[Switch_2]
+Action = 0
+
+[Switch_3]
+Action = 0
+
+
+[RIGID_SETTINGS]
+RBCount = 1
+
+[RigidBody_0]
+ID = 13
+FOR_ID = 0
+StartMarker = 6
+FilePath = DigProbFeb1_2020.rig
+Label = DigProbFeb1_2020
+[IMARKER_SETTINGS - RB_0]
+NumberOfMarkers = 0
+
+
+[ODAU_SETTINGS]
+ODAUCount = 0
+}
+CViewCollector : CTextView
+{
+ShowTypes = 79
+Units = 0
+Precision = 3
+RotationType = 0
+
+}
+CViewCollector : CMissingDataView
+{
+ShowTypes = 3
+Period = 10
+MaxRepaintFreq = 10.0
+SplitAxis = 1
+DrawGrid = 0
+DrawLegend = 1
+Types = 3
+RotFormat = 0
+AngleRadians = 0
+L0_Autoscale = 1
+L0_Bottom = 0.000000
+L0_Top = 1.000000
+L0_Max = 1.000000
+L0_Min = 1.000000
+L0_Visible = 1
+L0_Colour = 16777216
+L0_Width = 8
+L0_Style = 0
+L1_Autoscale = 1
+L1_Bottom = 0.000000
+L1_Top = 1.000000
+L1_Max = 1.000000
+L1_Min = 1.000000
+L1_Visible = 1
+L1_Colour = 16777217
+L1_Width = 8
+L1_Style = 0
+L2_Autoscale = 1
+L2_Bottom = 0.000000
+L2_Top = 1.000000
+L2_Max = 1.000000
+L2_Min = 1.000000
+L2_Visible = 1
+L2_Colour = 16777218
+L2_Width = 8
+L2_Style = 0
+L3_Autoscale = 1
+L3_Bottom = 0.000000
+L3_Top = 1.000000
+L3_Max = 1.000000
+L3_Min = 1.000000
+L3_Visible = 1
+L3_Colour = 16777219
+L3_Width = 8
+L3_Style = 0
+L4_Autoscale = 1
+L4_Bottom = 0.000000
+L4_Top = 1.000000
+L4_Max = 1.000000
+L4_Min = 1.000000
+L4_Visible = 1
+L4_Colour = 16777220
+L4_Width = 8
+L4_Style = 0
+L5_Autoscale = 1
+L5_Bottom = 0.000000
+L5_Top = 1.000000
+L5_Max = 1.000000
+L5_Min = 1.000000
+L5_Visible = 1
+L5_Colour = 16777221
+L5_Width = 8
+L5_Style = 0
+L6_Autoscale = 1
+L6_Bottom = 0.000000
+L6_Top = 1.000000
+L6_Max = 1.000000
+L6_Min = 1.000000
+L6_Visible = 1
+L6_Colour = 16777222
+L6_Width = 8
+L6_Style = 0
+L7_Autoscale = 1
+L7_Bottom = 0.000000
+L7_Top = 1.000000
+L7_Max = 1.000000
+L7_Min = 1.000000
+L7_Visible = 1
+L7_Colour = 16777223
+L7_Width = 8
+L7_Style = 0
+L8_Autoscale = 1
+L8_Bottom = 0.000000
+L8_Top = 1.000000
+L8_Max = 1.000000
+L8_Min = 1.000000
+L8_Visible = 1
+L8_Colour = 16777228
+L8_Width = 8
+L8_Style = 0
+L9_Autoscale = 1
+L9_Bottom = 0.000000
+L9_Top = 1.000000
+L9_Max = 1.000000
+L9_Min = 1.000000
+L9_Visible = 1
+L9_Colour = 16777225
+L9_Width = 8
+L9_Style = 0
+L10_Autoscale = 1
+L10_Bottom = 0.000000
+L10_Top = 1.000000
+L10_Max = 1.000000
+L10_Min = 1.000000
+L10_Visible = 1
+L10_Colour = 16777216
+L10_Width = 8
+L10_Style = 0
+AutoscaleCommon = 1
+BottomCommon = 0.000000
+TopCommon = 1.000000
+
+}
+CViewCollector : CProbeView
+{
+ShowTypes = 42
+Probe = 0
+Reference = -1
+
+}
+
+}
+
+Connections
+{
+
+
+}
+
